@@ -1,0 +1,220 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(../images/stripes.png) fixed;
+}
+ .header {
+ min-height: 100px;
+ background: #fff;
+ border-bottom: #7af97a solid 2px;
+}
+.header .container {
+padding: 20px 10px;
+}
+.logo-left {
+
+ }
+ .logo-left img {
+ float:left;
+ }
+.logo-center {
+ text-align: center;
+}
+.logo-center h1 {
+font-size: 25px;
+margin: 5px 0 5px;
+}
+.logo-center h3 {
+font-size: 15px;
+margin: 5px 0 5px;
+color: #cccccc;
+}
+.logo-right {
+
+}
+ .logo-right img {
+ float:right;
+ }
+ .main {
+padding: 10px 10px 10px;
+background: #fff;
+margin-top:10px;
+margin-bottom:10px;
+border:4px solid #7F0000;
+box-shadow: 0px 5px 10px -6px rgba(0,0,0,0.70);-moz-box-shadow: 3px 5px 8px rgba(0,0,0,0.70);-webkit-box-shadow: 3px 5px 8px rgba(0,0,0,0.70);
+border-radius:10px;
+
+ }
+.topcontainer{
+min-height:100px;
+}
+.widget {
+border: 1px solid #ddd;
+margin-bottom: 10px;
+ }
+ .widget p {
+ font-size: 12px;
+ }
+ .date {
+ color: #de0a0f;
+ font-size: 12px;
+ }
+ .widget-title {
+ background: #e7e7e7;
+ padding: 0 10px;
+ }
+ .widget-content {
+ padding: 10px;
+ overflow: hidden;
+ }
+  .widget-content img{
+ margin: auto;
+ max-width: 100%;
+ display: block;
+ border: solid 3px #e5e4e4;
+ margin-bottom: 10px;
+ }
+ .widget_login form {
+ margin-bottom: 10px;
+ }
+ .widget_login a {
+ display: block;
+ }
+ .widget-title h4 {
+ color: #666666;
+ }
+ .readmore {
+ color: #0f07c0;
+ }
+ .widget a:hover {
+text-decoration: none;
+ }
+ .iklan-depan {
+ text-align: center;
+ }
+ .iklan-depan img {
+ max-width: 100%;
+ }
+  .lowongan {
+  margin-bottom: 10px;
+  }
+ .lowongan-news {
+ border-bottom: dashed 1px #666;
+ margin-bottom: 10px;
+ }
+ .lowongan-news .title {
+ margin-top: 5px;
+ }
+ .lowongan-news .title a{
+ color: #de0a0f;
+ font-size: 15px;
+ text-decoration: none;
+ }
+ .lowongan-news p {
+ line-height: 1;
+ margin-bottom: 5px;
+ }
+ .carousel-control {
+  padding-top:10%;
+  width:5%;
+}
+.well1 {
+margin-bottom: 10px;
+padding: 10px 3px;
+border: 1px solid #ddd;
+}
+.well1 .carousel-inner {
+padding: 0 30px;
+}
+.left1 {
+background: #fff;
+}
+.right1 {
+background: #fff;
+}
+.footer {
+background: #3398FF;
+padding: 15px 10px 5px 10px;
+margin:0 -10px -10px -10px;
+}
+.copyright {
+text-align: center;
+}
+.footer h1,
+.footer h2,
+.footer h3,
+.footer h4,
+.footer h5 {
+margin: 5px 0;
+}
+.footer span{
+color: #666;
+font-size: 12px;
+}
+.hitcounter ul li {
+background:#d433b8;
+display: inline-block;
+color: #fff;
+padding: 0 3px;
+}
+.newsticker {
+padding:0;
+margin-bottom: 10px;
+background: #534b4b;
+}
+.newsupdate {
+background: #f64d11;
+padding: 10px;
+float:left;
+width: 12%;
+text-align: center;
+}
+.newsupdate span {
+color: #fff;
+}
+.update {
+padding: 10px 0 0;
+float:left;
+width: 88%;
+}
+.update a {
+padding-left: 10px;
+font-size: 12px;
+background: url('image/ticker.png');
+background-repeat: repeat-y;
+color: #fff;
+margin-right: 10px;
+}
+.update a:hover {
+text-decoration: none;
+}
+@media (max-width: 768px) {
+.logo-left {
+ text-align: center;
+ }
+ .logo-left img {
+ float:none;
+ }
+ .logo-right {
+  text-align: center;
+}
+ .logo-right img {
+ float:none;
+ }
+ .footer {
+ text-align: center;
+ }
+}
+@media (max-width:480px){
+ .topcontainer{
+min-height:200px;
+}
+}
+.required{color:#CC3300;font-weight:bold;}
+.help-block-error{
+	font-weight: normal;
+}
+.control-label{
+	font-weight: normal;
+}
+
+
